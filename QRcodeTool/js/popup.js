@@ -14,7 +14,7 @@ onload=function(){
               colorLight : '#ffffff',*/
               correctLevel : QRCode.CorrectLevel.H
             });
-		console.log(qrcode);
+		// console.log(qrcode);
 	});
 
 

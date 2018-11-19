@@ -20,7 +20,7 @@ body{
 	display: inline-block;
 	width: 400px;
 	background: #f1f1f1;;
-	padding: 10px;
+	padding: 40px 15px;
 	border-radius: 3px;
 
 }
@@ -62,6 +62,11 @@ body{
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     
+}
+textarea.control {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 40px;
 }
 .control:focus{
     border-color: #66afe9;
@@ -153,7 +158,6 @@ body{
 
 
 .footer{
-	background: #F2F2F2;
 	height: 100px;
 	margin-top: 20px;
 }
